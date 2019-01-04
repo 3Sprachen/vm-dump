@@ -1,0 +1,5 @@
+1. The runtime of a single append function in cArray is O(n^2) because the append function is called n times and there is a for loop O(n) in the function.
+2. The runtime of a single append function in cArray5 is
+3. The runtime of a single append function in cList is
+4. Based on runtimes, I think python is using ... to implement its append function
+The runtime for a python insert function is probably

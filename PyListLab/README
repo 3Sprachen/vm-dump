@@ -1,0 +1,5 @@
+1. The runtime of a single append function in cArray is O(n) because the for loop iterates linearly.
+2. The big O notation for the runtime of a single append function in cArray5 is also just n, because it is also linear. The if statement runs n times but the overall function goes faster because it only enters the for loop every fifth time.
+3. The big O of the runtime of a single append function in cList is exactly the same as in cArray5, except it enters the for loop much less often and is therefore a lot faster.
+4. Based on runtimes, I think python is using something closest to my cList program to implement its append function. There is probably also some complexity involved in translating the instruction inside python.
+5. The python insert function probably handles memory reallocation by trying to give space for the array and then doubling the size it's trying to allocate until the array finally fits.
